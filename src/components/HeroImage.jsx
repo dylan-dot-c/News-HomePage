@@ -1,3 +1,4 @@
+// import image from "../assets/images/"
 
 export default function HeroImage() {
 

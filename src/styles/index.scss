@@ -14,7 +14,7 @@ $dark-blue: hsl(240, 100%, 5%);
     margin: 0;
     padding: 0;
 
-}
+} 
 
 #root {
     background-color: $off-white;
@@ -22,7 +22,7 @@ $dark-blue: hsl(240, 100%, 5%);
 
 .hero--bg {
     width: 100%;
-    background-image: url(src/assets/images/image-web-3-mobile.jpg);
+    background-image: url(/src/assets/images/image-web-3-mobile.jpg);
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -167,7 +167,7 @@ main {
     .hero--bg {
         width: 100%;
         height: 250px;
-        background-image: url(src/assets/images/image-web-3-desktop.jpg);
+        background-image: url(/src/assets/images/image-web-3-desktop.jpg);
         grid-area: 1/1/2/3;
 
     }
