@@ -8,11 +8,17 @@ import TopNews from './components/TopNews'
 
 import { topNews } from "./assets/Data/topNews"
 
+import retro from "./assets/images/image-retro-pcs.jpg"
+import laptops from "./assets/images/image-top-laptops.jpg"
+import gaming from "./assets/images/image-gaming-growth.jpg"
+
+const pics = [retro, laptops, gaming]
 export default function App() {
   
   console.log(topNews)
   const result = topNews.map((news, index) => {
 
+    news.imageSrc = pics[index]
     return (
       <TopNews data={news} key={index} />
     )
